@@ -1,20 +1,23 @@
 {
-  "name": "hokipoki-official-marketplace",
-  "description": "Official plugins and skills for HokiPoki P2P AI marketplace",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hokipoki-plugin-marketplace",
+  "version": "1.0.0",
+  "description": "Official HokiPoki plugin for Claude Code - Switch AI models seamlessly",
   "owner": {
     "name": "HokiPoki Team",
-    "url": "https://github.com/Next-Halo"
+    "email": "support@hoki-poki.ai"
   },
   "plugins": [
     {
       "name": "hokipoki",
-      "description": "Switch AI models seamlessly via P2P marketplace",
-      "source": {
-        "type": "github",
-        "owner": "Next-Halo",
-        "repo": "hokipoki-plugin"
+      "description": "Switch AI models seamlessly via P2P marketplace when Claude gets stuck",
+      "version": "1.0.0",
+      "author": {
+        "name": "HokiPoki Team",
+        "email": "support@hoki-poki.ai"
       },
-      "version": "1.0.0"
+      "source": ".",
+      "category": "productivity"
     }
   ]
 }
