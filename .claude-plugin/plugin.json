@@ -1,0 +1,27 @@
+{
+  "name": "hokipoki",
+  "version": "1.0.0",
+  "description": "Switch AI models seamlessly. When Claude gets stuck, hop to Codex, Gemini, or another Claude instance via P2P marketplace.",
+  "author": "HokiPoki Team",
+  "repository": "https://github.com/next-halo/hokipoki-plugin",
+  "homepage": "https://hoki-poki.ai",
+  "keywords": ["ai", "p2p", "marketplace", "claude", "codex", "gemini", "model-switching"],
+  "commands": {
+    "hokipoki": {
+      "description": "Request help from remote AI via HokiPoki P2P marketplace",
+      "usage": "/hokipoki [--tool claude|codex|gemini] <task description>",
+      "examples": [
+        "/hokipoki Fix the bug in authentication.ts",
+        "/hokipoki --tool codex Optimize this algorithm for performance",
+        "/hokipoki --tool gemini Explain this codebase architecture"
+      ]
+    }
+  },
+  "skills": [
+    "skills/hokipoki-context-switching"
+  ],
+  "dependencies": {
+    "@next-halo/hokipoki-cli": "latest"
+  },
+  "license": "MIT"
+}
