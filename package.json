@@ -1,0 +1,57 @@
+{
+  "name": "@next-halo/hokipoki-plugin",
+  "version": "1.0.0",
+  "description": "Switch AI models seamlessly. When Claude gets stuck, hop to Codex, Gemini, or another Claude instance via P2P marketplace.",
+  "main": "commands/hokipoki.js",
+  "types": "commands/hokipoki.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prebuild": "npm run clean",
+    "clean": "rm -f commands/*.d.ts commands/*.js.map",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-plugin",
+    "ai",
+    "p2p",
+    "hokipoki",
+    "ai-marketplace",
+    "context-switching",
+    "claude",
+    "codex",
+    "gemini"
+  ],
+  "author": {
+    "name": "HokiPoki Team",
+    "url": "https://hoki-poki.ai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Next-Halo/hokipoki-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Next-Halo/hokipoki-plugin/issues"
+  },
+  "homepage": "https://github.com/Next-Halo/hokipoki-plugin#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  },
+  "peerDependencies": {
+    "@next-halo/hokipoki-cli": ">=1.0.0"
+  },
+  "files": [
+    "commands/",
+    "skills/",
+    ".claude-plugin/",
+    "README.md",
+    "LICENSE"
+  ]
+}
