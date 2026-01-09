@@ -7,5 +7,7 @@
   },
   "repository": "https://github.com/next-halo/hokipoki-plugin",
   "homepage": "https://hoki-poki.ai",
-  "license": "MIT"
+  "license": "MIT",
+  "commands": ["../commands/hokipoki.js"],
+  "skills": ["../skills/hokipoki-context-switching"]
 }
