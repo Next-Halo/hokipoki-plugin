@@ -1,0 +1,14 @@
+{
+  "name": "HokiPoki Official Marketplace",
+  "description": "Official plugins and skills for HokiPoki P2P AI marketplace",
+  "author": "HokiPoki Team",
+  "url": "https://github.com/Next-Halo/hokipoki-plugin",
+  "plugins": [
+    {
+      "name": "hokipoki",
+      "description": "Switch AI models seamlessly via P2P marketplace",
+      "path": ".",
+      "version": "1.0.0"
+    }
+  ]
+}
