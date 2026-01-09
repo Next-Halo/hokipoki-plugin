@@ -1,7 +1,7 @@
 {
   "name": "@next-halo/hokipoki-plugin",
   "version": "1.0.0",
-  "description": "Switch AI models seamlessly. When Claude gets stuck, hop to Codex, Gemini, or another Claude instance via P2P marketplace.",
+  "description": "Switch AI models seamlessly. When Claude gets stuck, hop to Codex, Gemini, etc.",
   "main": "commands/hokipoki.js",
   "types": "commands/hokipoki.d.ts",
   "scripts": {

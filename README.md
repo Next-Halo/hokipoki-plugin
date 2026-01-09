@@ -1,6 +1,6 @@
 # HokiPoki Claude Code Plugin
 
-> **Switch AI models seamlessly.** When Claude gets stuck, hop to Codex, Gemini, or another Claude instance via P2P marketplace.
+> **Switch AI models seamlessly.** When Claude gets stuck, hop to Codex, Gemini, etc.
 
 Share AI subscriptions with your team. Switch between models when one gets stuck on a problem.
 
