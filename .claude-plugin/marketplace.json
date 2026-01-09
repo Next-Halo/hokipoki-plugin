@@ -2,12 +2,12 @@
   "name": "hokipoki-plugins",
   "description": "Official plugins for HokiPoki P2P AI marketplace",
   "owner": {
-    "name": "Next-Halo Team",
-    "url": "https://github.com/Next-Halo"
+    "name": "Next-Halo Team"
   },
   "plugins": [
     {
       "name": "hokipoki",
+      "source": "./",
       "description": "Switch AI models seamlessly via P2P marketplace",
       "version": "1.0.0",
       "author": {
