@@ -8,7 +8,6 @@
   "plugins": [
     {
       "name": "hokipoki",
-      "source": ".",
       "description": "Switch AI models seamlessly via P2P marketplace",
       "version": "1.0.0",
       "author": {
