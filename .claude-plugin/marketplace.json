@@ -9,7 +9,11 @@
     {
       "name": "hokipoki",
       "description": "Switch AI models seamlessly via P2P marketplace",
-      "source": "Next-Halo/hokipoki-plugin",
+      "source": {
+        "type": "github",
+        "owner": "Next-Halo",
+        "repo": "hokipoki-plugin"
+      },
       "version": "1.0.0"
     }
   ]
