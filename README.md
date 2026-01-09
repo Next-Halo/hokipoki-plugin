@@ -41,18 +41,22 @@ HokiPoki is a **P2P AI marketplace** that connects requesters (who need AI help)
 
 ### Install Plugin in Claude Code
 
-```bash
-# Add HokiPoki marketplace
-/plugin marketplace add next-halo/hokipoki-plugin
+**Two-step installation process:**
 
-# Install the plugin
-/plugin install hokipoki
+```bash
+# Step 1: Register the HokiPoki marketplace
+/plugin marketplace add Next-Halo/hokipoki-plugin
+
+# Step 2: Install the plugin from the marketplace
+/plugin install hokipoki@hokipoki-plugins
 ```
 
-Or for local development:
+**For local development:**
 ```bash
 /plugin install /path/to/hokipoki-plugin
 ```
+
+**Note:** The two-step process is required for GitHub-hosted plugins. Claude Code uses marketplace.json to discover available plugins.
 
 ## Usage
 
